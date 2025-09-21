@@ -40,12 +40,12 @@ cmd({
         
         // 4. Create stylish caption
         const caption = `
-╭─〔 *🎥 IMMU-MD DOWNLOADER* 〕
+╭─〔 *🎥 ℕ𝕖𝕥𝕂𝕚𝕟𝕘 DOWNLOADER* 〕
 ├─▸ *📌 Title:* ${vid.title}
 ├─▸ *⏳ Duration:* ${vid.timestamp}
 ├─▸ *👀 Views:* ${vid.views}
 ├─▸ *👤 Author:* ${vid.author.name}
-╰─➤ *Powered by IMMU-MD*`;
+╰─➤ *Powered by ℕ𝕖𝕥𝕂𝕚𝕟𝕘*`;
         
         // 5. Send video with formatted caption
         await conn.sendMessage(from, {
