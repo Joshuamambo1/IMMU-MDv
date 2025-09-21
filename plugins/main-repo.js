@@ -16,7 +16,7 @@ cmd({
     filename: __filename,
 },
 async (conn, mek, m, { from, reply }) => {
-    const githubRepoURL = 'https://github.com/XRI-DOUBLE07/IMMU-MD';
+    const githubRepoURL = 'https://github.com/Muchinjanya/Litekuba';
 
     try {
         // Extract username and repo name from the URL
@@ -29,10 +29,10 @@ async (conn, mek, m, { from, reply }) => {
 
         // Format the repository information in new stylish format
         const formattedInfo = `
-╭─〔 *IMMU MD REPOSITORY* 〕
+╭─〔 *N3TKING MD REPOSITORY* 〕
 │
 ├─ *📌 Repository Name:* ${repoData.name}
-├─ *👑 Owner:* ɪᴍᴀᴅ ᴀʟɪ
+├─ *👑 Owner:* ℕ𝕖𝕥𝕂𝕚𝕟𝕘
 ├─ *⭐ Stars:* ${repoData.stargazers_count}
 ├─ *⑂ Forks:* ${repoData.forks_count}
 ├─ *📝 Description:* ${repoData.description || 'World Best WhatsApp Bot powered by Imad Ali'}
@@ -41,29 +41,29 @@ async (conn, mek, m, { from, reply }) => {
 │   ${repoData.html_url}
 │
 ├─ *🌐 Join Channel:*
-│   https://whatsapp.com/channel/0029Vaq4PRsD38CJKXzwmb42
+│   https://whatsapp.com/channel/0029VaraMtfFcowAKRdDdp1T
 │
-╰─ *⚡ Powered by IMMU MD*
+╰─ *⚡ Powered by ☘🆃︎🅴︎🅻︎🅺︎🅸︎🅽︎🅶︎☘*
 `.trim();
 
         // Send an image with the formatted info as a caption
         await conn.sendMessage(from, {
-            image: { url: `https://i.postimg.cc/xTTgKc2W/IMG-20250801-WA0019.jpg` }, // Replace with your image URL
+            image: { url: `https://i.postimg.cc/4NdSqms8/MidKing.jpg` }, // Replace with your image URL
             caption: formattedInfo,
             contextInfo: { 
                 mentionedJid: [m.sender],
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363341506278064@newsletter',
-                    newsletterName: 'MMU-MD',
+                    newsletterJid: '120363347365643318@newsletter',
+                    newsletterName: '☘🆃︎🅴︎🅻︎🅺︎🅸︎🅽︎🅶︎☘',
                     serverMessageId: 143
                 }
             }
         }, { quoted: mek });
 
         // Send audio voice message after sending repo info
-        const audioPath = path.join(__dirname, '../assets/menux.m4a');
+        const audioPath = path.join(__dirname, 'https://files.catbox.moe/vpnqp7.mp3');
         
         if (fs.existsSync(audioPath)) {
             await conn.sendMessage(from, {
