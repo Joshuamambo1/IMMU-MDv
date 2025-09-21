@@ -34,7 +34,7 @@ cmd({
 
     await conn.sendMessage(from, {
       video: { url: downloadLink },
-      caption: `> Powered By IMMU MD 💜`
+      caption: `> Powered By ℕ𝕖𝕥𝕂𝕚𝕟𝕘 MD 💜`
     }, { quoted: mek });
 
     await conn.sendMessage(from, { react: { text: '✅', key: m.key } });
@@ -77,7 +77,7 @@ cmd({
 
     await conn.sendMessage(from, {
       video: { url: downloadLink },
-      caption: `> Powered By IMMU MD 💜`
+      caption: `> Powered By ℕ𝕖𝕥𝕂𝕚𝕟𝕘 MD 💜`
     }, { quoted: mek });
 
     await conn.sendMessage(from, { react: { text: '✅', key: m.key } });
@@ -121,7 +121,7 @@ cmd({
 
     await conn.sendMessage(from, {
       video: { url: downloadLink },
-      caption: `> Powered By IMMU MD 💜`
+      caption: `> Powered By ℕ𝕖𝕥𝕂𝕚𝕟𝕘 MD 💜`
     }, { quoted: mek });
 
     await conn.sendMessage(from, { react: { text: '✅', key: m.key } });
