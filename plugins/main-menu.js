@@ -23,7 +23,7 @@ let dec = `*╭────⬡ ${config.BOT_NAME} ⬡────⭓*
 *├▢ 📜 Commands:* ${totalCommands}
 *├▢ ⏱️ Runtime:* ${runtime(process.uptime())}
 *├▢ 📡 Baileys:* Multi Device
-*├▢ ☁️ Platform:* Heroku
+*├▢ ☁️ Platform:* Render
 *├▢ 📦 Prefix:* ${config.PREFIX}
 *├▢ ⚙️ Mode:* ${config.MODE}
 *├▢ 🏷️ Version:* 1.0.0 Bᴇᴛᴀ
@@ -373,14 +373,14 @@ let dec = `*╭────⬡ ${config.BOT_NAME} ⬡────⭓*
 ${config.DESCRIPTION}`;
 
 await conn.sendMessage(from, { 
-    image: { url: config.MENU_IMAGE_URL || 'https://i.postimg.cc/xTTgKc2W/IMG-20250801-WA0019.jpg' }, 
+    image: { url: config.MENU_IMAGE_URL || 'https://i.postimg.cc/4NdSqms8/MidKing.jpg' }, 
     caption: dec, 
     contextInfo: { 
         mentionedJid: [m.sender], 
         forwardingScore: 999, 
         isForwarded: true, 
         forwardedNewsletterMessageInfo: { 
-            newsletterJid: '120363341506278064@newsletter', 
+            newsletterJid: '120363347365643318@newsletter', 
             newsletterName: config.BOT_NAME, 
             serverMessageId: 143 
         } 
