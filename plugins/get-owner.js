@@ -22,7 +22,7 @@ cmd({
       'BEGIN:VCARD\n' +
       'VERSION:3.0\n' +
       `FN:${name}\n` +
-      `ORG:IMMU-MD Team;\n` +
+      `ORG:BOYKA-XD Team;\n` +
       `TEL;type=CELL;type=VOICE;waid=${number}:${'+' + number}\n` +
       'END:VCARD';
 
