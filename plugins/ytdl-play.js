@@ -197,7 +197,7 @@ cmd({
 3. Voice Note (PTT) 
 4. Document (MP4)
 5. Document (MP3) 
-> *© Powered By IMMU MD ♡*`;
+> *© Powered By ℕ𝕖𝕥𝕂𝕚𝕟𝕘 MD ♡*`;
 
             // Send video details with thumbnail
             const sentMsg = await conn.sendMessage(from, { 
@@ -254,7 +254,7 @@ cmd({
                                 // Video download (no conversion needed)
                                 await conn.sendMessage(from, { 
                                     video: mediaBuffer,
-                                    caption: "> *Powered By IMMU MD 🤍*"
+                                    caption: "> *Powered By ℕ𝕖𝕥𝕂𝕚𝕟𝕘 🤍*"
                                 }, { quoted: receivedMsg });
                                 break;
                                 
